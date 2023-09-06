@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="88dp"
+        android:text="1st Number  :"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText1st"
+        android:layout_width="131dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="84dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="165dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="140dp"
+        android:text="2nd Number  :"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText2nd"
+        android:layout_width="131dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="184dp"
+        android:layout_marginTop="136dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonadd"
+        android:layout_width="94dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="212dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Add (  +  )"
+        android:textColor="#0E0909"
+        android:textColorHighlight="#081514"
+        android:textColorLink="#090805"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="96dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="212dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Sub (  -  )"
+        android:textColor="#0C0202"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonmul"
+        android:layout_width="92dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="212dp"
+        android:backgroundTint="#FFEB3B"
+        android:foregroundTint="#FDFFFFFF"
+        android:text="Mul (  *  )"
+        android:textColor="#070404"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttondiv"
+        android:layout_width="84dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="212dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Div (  /  )"
+        android:textColor="#050303"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="85dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="328dp"
+        android:text="Result : "
+        android:textColor="#E91E63"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextres"
+        android:layout_width="391dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="384dp"
+        android:ems="10"
+        android:inputType="text"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonmod"
+        android:layout_width="94dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="276dp"
+        android:backgroundTint="#FFEB3B"
+        android:text="Mod (  %  )"
+        android:textColor="#000000"
+        android:textColorHighlight="#009688"
+        android:textColorLink="#FFEB3B"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextClock
+        android:id="@+id/textClock"
+        android:layout_width="80dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.987"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.016" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="47dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="12dp"
+        android:text="Time :"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="36dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kojha" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
